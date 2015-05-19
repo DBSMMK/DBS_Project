@@ -1,0 +1,56 @@
+CREATE TABLE MOVIE 
+(Title				varchar(255) NOT NULL,
+MovieID				int8 NOT NULL,
+ReleaseYear			interval YEAR,
+ProductionYear		interval YEAR,
+Runtime				int4,
+DirectorID			int8 NOT NULL,
+Rating				float4,
+PRIMARY KEY (MovieID),
+FOREIGN KEY (DirectorID) REFERENCES DIRECTOR (DirectorID)
+);
+
+CREATE TABLE ACTOR
+(ActorID			int8 NOT NULL,
+FName				varchar(255),
+LName				varchar(255),
+PRIMARY KEY (ActorID)
+);
+
+CREATE TABLE DIRECTOR
+(DirectorID			int8 NOT NULL,
+FName				varchar(255),
+LName 				varchar(255),
+PRIMARY KEY (DirectorID)
+);
+
+CREATE TABLE RATING
+(RatingID			int8 NOT NULL,
+Date				date,
+RatingPoints		int4,
+MovieID				int8 NOT NULL,
+PRIMARY KEY (RatingID),
+FOREIGN KEY (MovieID) REFERENCES MOVIE (MovieID)
+);
+
+CREATE TABLE GENRE
+(GName				varchar(255) NOT NULL,
+PRIMARY KEY (GName)
+);
+
+CREATE TABLE ACTS_IN
+(MovieID			int8 NOT NULL,
+ActorID				int8 NOT NULL,
+PRIMARY KEY (MovieID, ActorID),
+FOREIGN KEY (MovieID) REFERENCES MOVIE(MovieID),
+FOREIGN KEY (ActorID) REFERENCES ACTOR (ActorID)
+);
+
+CREATE TABLE BELONGS_TO
+(GName				varchar(255) NOT NULL,
+MovieID				int8 NOT NULL,
+PRIMARY KEY (GName, MovieID),
+FOREIGN KEY (GName) REFERENCES GENRE (GName),
+FOREIGN KEY (MovieID) REFERENCES MOVIE (MovieID)
+);
+
