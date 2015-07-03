@@ -1,0 +1,24 @@
+CREATE TABLE alldata 
+	(imdbID			VARCHAR(9), 
+	name			TEXT,
+	year			INT2, 
+	rating			NUMERIC(3,1),
+	votes			INT,
+	runtime			INT2,
+	directors		TEXT, 
+	actors			TEXT,
+	genres			TEXT);
+	
+COPY alldata 
+FROM 'C:/Users/Marvin/Downloads/imdb_top100t_2015-06-18.csv'
+FORMAT CSV
+DELIMITER '\t';
+
+INSERT INTO movies
+(imdbID, title, rel_year, rating, rating_counts, duration)
+SELECT imdbID, name, year, rating, votes, runtime
+FROM alldata A
+WHERE NOT EXSISTS  (SELECT imdbID
+					FROM movies	
+					WHERE A.imdbID = imdbID);
+					
