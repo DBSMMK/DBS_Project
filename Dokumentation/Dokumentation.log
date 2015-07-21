@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.28)  20 MAY 2015 00:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.28)  21 JUL 2015 22:20
 entering extended mode
 **C:/Users/Marvin/Documents/Latex/Dokumentation/Dokumentation.tex
 (C:/Users/Marvin/Documents/Latex/Dokumentation/Dokumentation.tex
@@ -155,22 +155,30 @@ File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
 (C:\Users\Marvin\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 (C:\Users\Marvin\Documents\Latex\Dokumentation\Dokumentation.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -222,46 +230,86 @@ LaTeX Font Info:    ... okay on input line 18.
 )
 \c@lstlisting=\count107
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 19.
+(Font)              <12> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <8> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
+(Font)              <6> on input line 22.
  <MoviesER_Portrait.pdf, id=1, 596.98032pt x 844.65562pt>
 File: MoviesER_Portrait.pdf Graphic file (type pdf)
 
 <use MoviesER_Portrait.pdf>
-Package pdftex.def Info: MoviesER_Portrait.pdf used on input line 26.
+Package pdftex.def Info: MoviesER_Portrait.pdf used on input line 28.
 (pdftex.def)             Requested size: 362.77525pt x 513.28015pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 36.
+(Font)              <10.95> on input line 38.
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--38
+{C:/Users/Marvin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/M
+arvin/Documents/Latex/Dokumentation/MoviesER_Portrait.pdf>] [2]
+Overfull \hbox (1.29214pt too wide) in paragraph at lines 102--111
+[]\OT1/cmr/m/n/10.95 DI-RECTS ($[]$: var-char(9); $[]$: var-char(127); $[]$:
+ []
+
+[3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 130.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
+
+Overfull \hbox (0.92712pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10.95 zun[]achst ei-ne Ta-bel-le f[]ur al-le At-tri-bu-te an-zu-le
+-gen, um dann mit der von SQL zur Verf[]ugung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-[1
+(C:\Users\Marvin\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
-{C:/Users/Marvin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/M
-arvin/Documents/Latex/Dokumentation/MoviesER_Portrait.pdf>] [2] [3]
-(C:\Users\Marvin\Documents\Latex\Dokumentation\Dokumentation.aux) ) 
+ []
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 188.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 188.
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+[5] (C:\Users\Marvin\Documents\Latex\Dokumentation\Dokumentation.aux) ) 
 Here is how much of TeX's memory you used:
- 4000 strings out of 494045
- 53386 string characters out of 3145965
- 153922 words of memory out of 3000000
- 7277 multiletter control sequences out of 15000+200000
- 8610 words of font info for 31 fonts, out of 3000000 for 9000
+ 4187 strings out of 494045
+ 56130 string characters out of 3145965
+ 163234 words of memory out of 3000000
+ 7452 multiletter control sequences out of 15000+200000
+ 8917 words of font info for 32 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 27i,6n,40p,288b,1829s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Dokumentation.pdf (3 pages, 175421 bytes).
+ 27i,6n,40p,558b,1765s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Dokumentation.pdf (5 pages, 214190 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
