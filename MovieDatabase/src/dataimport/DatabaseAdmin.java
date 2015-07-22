@@ -11,14 +11,15 @@ public class DatabaseAdmin {
 	public static void main(String[] args) {
 		//Hier eure Postgre Datenbank einfuegen
 		DatabaseAdmin admin = new DatabaseAdmin
-				("jdbc:postgresql://localhost:5432/movies","marvin","siedler7");
+				("jdbc:postgresql://localhost:5432/movies","","");
+				//User und Password eingeben
 		//erstellt den erforderlichen Table "movies", falls noch nicht vorhanden
 		admin.createTables();
 
 		try {
 			//crawlt die Daten aus der CSV Datei, die wir bekommen haben
 			admin.crawlMovieData
-					("C:/Users/Marvin/Downloads/imdb_top100t_2015-06-18.csv");
+					("imdb_top100t_2015-06-18.csv");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
