@@ -1,0 +1,23 @@
+//arff-file zur Vorhersage, welches Genre ein Film mit Regisseur 
+//und zwei bestimmten Schauspielern haben wird
+
+@relation genre
+
+@attribute director nominal
+@attribute actor1 nominal
+@attribute actor2 nominal
+@attribute genre nominal
+
+@data
+//hierfuer eine Query machen, auf die Datenbank anwenden 
+//und die Daten an diese Stelle hineinkopieren
+//Query muesste so oder so aehnlich aussehen
+SELECT D.lastname, A1.lastname, (SELECT DISTINCT A2.lastname 
+				 FROM acts_in A2 
+				 WHERE id = A2.movieID
+				 AND A1.lastname <> A2.lastname), G.name
+FROM movie, directs D, acts_in A1, has_genre G
+WHERE id = G.movieID
+AND id = D.movieID
+AND id = A1.movieID 
+
